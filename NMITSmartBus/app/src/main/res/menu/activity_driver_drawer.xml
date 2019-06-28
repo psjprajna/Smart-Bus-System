@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dhome"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/dabout"
+            android:icon="@drawable/ic_about_black_24dp"
+            android:title="About" />
+        <item
+            android:id="@+id/dcontact"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/dlogout"
+            android:icon="@drawable/ic_logout_new_black_24dp"
+            android:title="Logout" />
+    </group>
+
+</menu>
